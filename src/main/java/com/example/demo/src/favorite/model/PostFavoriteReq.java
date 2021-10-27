@@ -1,0 +1,17 @@
+package com.example.demo.src.favorite.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+
+import java.util.List;
+
+@Getter
+@Setter
+@AllArgsConstructor
+public class PostFavoriteReq {
+    private int userId;
+    private int restaurantId;
+    private String restaurantName;
+    private String image;
+}
