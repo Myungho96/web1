@@ -7,10 +7,7 @@
 - 도메인 폴더 구조
     
     > controller → service → Dao
-    > 
-    > 
-    >                   ㄴ>provider—^
-    > 
+    >.            ㄴ>provider—^
 - Route:. get,post 등중에 정해야하며 restful하게 /users/:useridx 처럼 설계해줘야한다.
 - Controller:
     
@@ -160,3 +157,5 @@ build.gradle // gradle 빌드시에 필요한 dependency 설정하는 곳
 .gitignore // git 에 포함되지 않아야 하는 폴더, 파일들을 작성 해놓는 곳
 
 ```
+
+API 명세서 : https://docs.google.com/spreadsheets/d/1NxfF2rOpb41iBRTjDviQ_ioYq3o61oSqXTj6iZk8oIo/edit?usp=sharing
