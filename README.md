@@ -6,8 +6,7 @@
 - `config` 및 `util` 폴더:  `src` 에서 필요한 부차적인 파일들을 모아놓은 폴더이다. 필요한 경우 import 하여 사용한다.
 - 도메인 폴더 구조
     
-    > controller → service → Dao
-    >.            ㄴ>provider—^
+    > controller → service || provider → Dao
 - Route:. get,post 등중에 정해야하며 restful하게 /users/:useridx 처럼 설계해줘야한다.
 - Controller:
     
